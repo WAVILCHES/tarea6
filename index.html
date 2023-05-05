@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Link a mi CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- link a Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    
+    <title>Tarea 6 - AAPRO 2023</title>
+</head>
+
+<body class="bgbody">
+    
+    <header class="encabezado">
+        <img src="./img/logopdp.png" alt="logo palas del parana" class="logo">
+        <img src="./img/Palas del Paraná.png" alt="banner palas del parana" class="banner">
+        <h1 class="encabezado titulo">Pesca en Kayak - Rosario</h1>
+    </header>
+        
+    <nav class="navbar">
+        <ul class="navbar_list">
+        <li class="navbar_items"><a href="./pages/quienessomos.html">Quienes somos</a></li>
+        <li class="navbar_items"><a href="./pages/galeria.html">Galería</a></li>
+        <li class="navbar_items"><a href="./pages/contacto.html">Contacto</a></li>
+        <li class="navbar_items"><a href="./pages/horarios.html">Horarios</a></li>
+        </ul>
+    </nav>
+    
+    
+    <h2 class="registro">Registrate:</h4>
+
+    <form action="" id="regf">
+        <label for="usuario">Nombre de usuario:</label>
+        <input type="text" name="usuario" id="usuario" maxlength="24" placeholder="Usuario"><br>
+        <label for="pass">Contraseña:</label>
+        <input type="password" name="contraseña" id="pass" maxlength="16" placeholder="Contraseña"><br>
+        <label for="fechanacimiento">Fecha de Nacimiento:</label>
+        <input type="date" name="fechanacimiento" id="fechanacimiento" placeholder="Fecha de nacimiento"><br>
+        <label for="pais">País:</label>
+        <input type="text" name="pais" id="pais" placeholder="País"><br>
+        <input type="submit" name="registrar" id="registrar">
+    </form><br>
+    
+    <main>
+     
+        <p class="presentacion">Somos un grupo de amigos, amantes de la pesca, la navegación, el río y su naturaleza. El objetivo principal del grupo es pasarla bien, por lo que nos consideramos un grupo muy exitoso. Esperamos que, recorriendo ésta página, puedas ver un poco lo que hacemos y cómo lo hacemos. Si te interesa formar parte de ésto, te vamos a dejar los medios para contactarnos. De todas maneras y para empezar, te sugerimos que disfrutes el paseo.</p>
+
+     <aside>
+        <div id="cuestionario"><form action="">
+            Nombre y Apellido:<input type="text" name="nombre" placeholder="Nombre y Apellido"><br>
+            Dónde nos conociste?: <br> 
+            Instagram: <input type="radio" name="publi"> <br>
+            Facebook: <input type="radio" name="publi"> <br>
+            Otro: <input type="text" name="publi" maxlength="24"> <br>
+            Qué contenido te gustaría ver en la página: <br>
+            <input type="checkbox" name="navegación"> Navegación <br>
+            <input type="checkbox" name="pesca"> Pesca <br>
+            <input type="checkbox" name="outdoor"> Aire Libre <br>
+            Lo echarán a Walter?: <br>
+            <select name="echar" id="echar">
+                <option value="si">Si</option>
+                <option value="no">No</option>
+                <option value="queloechen">Que lo echen, que lo eeechen</option>
+            </select><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Restablecer">
+            </form>
+        </div>
+     </aside>
+    
+    </main>
+
+
+ 
+ <footer class="piedepag"><h3>&copy; Realizada por wavilches. Todos los derechos reservados.</h3>
+    <div class="redes">
+        <li><a href="https://www.instagram.com/palas_del_parana/" target="_blank" class="fa-brands fa-instagram" id="ig"></a></li>
+        <li><a href="https://www.facebook.com/groups/545013782684978" target="_blank" class="fa-brands fa-facebook" id="fb"></a></li>
+        <li><a href="https://www.youtube.com/@palasdelparana" target="_blank" class="fa-brands fa-youtube" id="yt"></a></li>
+    </div>
+
+</footer>
+
+</body>
+
+</html>
